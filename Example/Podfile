@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RecognizeIM_Example' do
+  pod 'RecognizeIM', :path => '../'
+
+  target 'RecognizeIM_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
